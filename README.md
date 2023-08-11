@@ -1,12 +1,14 @@
 #Free Mentors
 
 ##Project Description
+
 Free Mentors is a social initiative where accomplished professionals become role models to young people to provide free mentorship sessions.
 
 ##UI Template
 
 
 ##UI Required Features
+
 -[Users can sign up]()
 -[Users can sign in]()
 -[Admin can change a user to a mentor]()
@@ -18,6 +20,7 @@ Free Mentors is a social initiative where accomplished professionals become role
 
 
 ##Optional Features
+
 -[Users can view all their mentorship sessions]()
 -[Users can review a mentor after a mentorship session]()
 -[Admin can delete a review deemed as inappropriate]()
@@ -36,9 +39,11 @@ Free Mentors is a social initiative where accomplished professionals become role
 ##Credits
 
 ##License
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ##Author
+
 Matovu Reagan Sebalamu
 johnreagan997@gmail.com
 
