@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* height: 100vh; */
+  background-color: rgb(99, 99, 99);
+}
+
+.andela {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  width: 100%;
+  height: 48vh;
+  /* height: 20rem; */
+}
+
+.about {
+  background-color: rgb(17, 5, 244);
+  width: 100%;
+  height: 80%;
+}
+
+.search {
+  background-color: rgb(232, 244, 5);
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.andela-mentors{
+  margin-left: 50px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.andela-mentors .logo {
+  height: 3rem;
+  width: 3rem;
+  /* border-radius: 50px; */
+  background-color: rgb(255, 1, 1);
+}
+
+.andela-mentors .logo + div {
+  margin-top: 13px;
+}
+
+.search input {
+height: 2rem;
+/* width: 165%; */
+width: 17rem;
+border-radius: 3px;
+}
+
+
+.andela-mentors + div {
+  display: flex;
+}
+.andela-mentors + div button {
+  height: 2.15rem;
+  padding: 5px;
+}
+.grid{
+  /* display: grid;
+  grid-template-columns: 100px 30px 30px; */
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mentors{
+  background-color: aquamarine;
+  margin: 25px;
+  /* grid-gap: 10px; */
+  width: 20%;
+  height: 55vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40vh;
+  border-radius: 15px;
+}
+
+.mentor{
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+  background-color: black;
+  width: 60%;
+  align-items: center;
+  border-radius: 13px;
+  /* overflow: hidden; */
+  z-index: -1;
+  position: absolute;
+}
+
+
+.picture{
+  height: 100%;
+  width: 35%;
+  background-color: red;
+  /* border-radius: 13px; */
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  overflow: hidden;
+  /* position: absolute; */
+}
+
+.image{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+  background-color: beige;
+}
+
+.image + div{
+  background-color: aqua;
+  margin-top: 65px;
+  margin-left: 55px;
+  width: 60%;
+}
+.image + div button {
+  /* position: relative; */
+  height: 2.5rem;
+  width: 100%;
+  /* top: 78px;
+  left: 65px; */
+  border-radius: 20px;
+}
+
+.info{
+  height: 100%;
+  width: 65%;
+  background-color: rgb(106, 61, 61);
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.hidden{
+  opacity: 0;
+  z-index: -5;
+}

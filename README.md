@@ -1,5 +1,6 @@
 #Free Mentors
-
+ [![Coverage Status](https://coveralls.io/repos/github/ree-ghan/freementors/badge.svg?branch=develop)](https://coveralls.io/github/ree-ghan/freementors?branch=develop)
+ 
 ##Project Description
 
 Free Mentors is a social initiative where accomplished professionals become role models to young people to provide free mentorship sessions.
