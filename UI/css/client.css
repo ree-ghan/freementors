@@ -40,7 +40,7 @@
   align-items: center;
 }
 
-.andela-mentors{
+.andela-mentors {
   margin-left: 50px;
   display: flex;
   /* justify-content: center;
@@ -59,12 +59,11 @@
 }
 
 .search input {
-height: 2rem;
-/* width: 165%; */
-width: 17rem;
-border-radius: 3px;
+  height: 2rem;
+  /* width: 165%; */
+  width: 17rem;
+  border-radius: 3px;
 }
-
 
 .andela-mentors + div {
   display: flex;
@@ -73,7 +72,7 @@ border-radius: 3px;
   height: 2.15rem;
   padding: 5px;
 }
-.grid{
+.grid {
   /* display: grid;
   grid-template-columns: 100px 30px 30px; */
   width: 100%;
@@ -83,7 +82,7 @@ border-radius: 3px;
   justify-content: center;
 }
 
-.mentors{
+.mentors {
   background-color: aquamarine;
   margin: 25px;
   /* grid-gap: 10px; */
@@ -94,7 +93,7 @@ border-radius: 3px;
   border-radius: 15px;
 }
 
-.mentor{
+.mentor {
   display: flex;
   flex-direction: row;
   height: 60vh;
@@ -107,8 +106,7 @@ border-radius: 3px;
   position: absolute;
 }
 
-
-.picture{
+.picture {
   height: 100%;
   width: 35%;
   background-color: red;
@@ -119,7 +117,7 @@ border-radius: 3px;
   /* position: absolute; */
 }
 
-.image{
+.image {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -127,7 +125,7 @@ border-radius: 3px;
   background-color: beige;
 }
 
-.image + div{
+.image + div {
   background-color: aqua;
   margin-top: 65px;
   margin-left: 55px;
@@ -142,7 +140,7 @@ border-radius: 3px;
   border-radius: 20px;
 }
 
-.info{
+.info {
   height: 100%;
   width: 65%;
   background-color: rgb(106, 61, 61);
@@ -150,7 +148,7 @@ border-radius: 3px;
   border-bottom-right-radius: 13px;
 }
 
-.hidden{
+.hidden {
   opacity: 0;
   z-index: -5;
 }
