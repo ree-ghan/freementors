@@ -1,6 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-weight: 600;
+  color: white;
 }
 
 .page {
@@ -12,7 +14,8 @@
   width: 100%;
   height: 100%;
   /* height: 100vh; */
-  background-color: rgb(99, 99, 99);
+  /* background-color: rgb(99, 99, 99); */
+  background-color: rgb(51, 51, 53);
 }
 
 .andela {
@@ -26,18 +29,29 @@
 }
 
 .about {
-  background-color: rgb(17, 5, 244);
+  background-color: rgb(51, 51, 53);
+  /* background-image:url(); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
   width: 100%;
   height: 80%;
 }
 
+.about p {
+  width: 60%;
+}
+
 .search {
-  background-color: rgb(232, 244, 5);
+  background-color: rgb(41, 41, 41);
   width: 100%;
   height: 20%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  /* border-bottom:4px solid rgb(255, 115, 0); */
+  border-bottom: 4px solid rgb(255, 1, 1);
 }
 
 .andela-mentors {
@@ -71,6 +85,10 @@
 .andela-mentors + div button {
   height: 2.15rem;
   padding: 5px;
+  background-color: rgb(255, 1, 1);
+  border: none;
+  /* font-weight: 600;
+  color: white; */
 }
 .grid {
   /* display: grid;
@@ -104,6 +122,9 @@
   /* overflow: hidden; */
   z-index: -1;
   position: absolute;
+}
+
+.mentor-about {
 }
 
 .picture {
