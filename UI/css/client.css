@@ -85,7 +85,7 @@
 .andela-mentors + div button {
   height: 2.15rem;
   padding: 5px;
-  background-color: rgb(255, 1, 1);
+  background-color: rgba(255, 1, 1, 1);
   border: none;
   /* font-weight: 600;
   color: white; */
@@ -101,7 +101,11 @@
 }
 
 .mentors {
-  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(41, 41, 41);
   margin: 25px;
   /* grid-gap: 10px; */
   width: 20%;
@@ -109,6 +113,12 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 40vh;
   border-radius: 15px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mentors:hover{
+  border: solid 2px rgba(255, 1, 1, 1);
 }
 
 .mentor {
@@ -124,7 +134,19 @@
   position: absolute;
 }
 
+.mentor-image{
+  height: 50%;
+}
+
+.mentor-image img{
+  border-radius: 50%;
+  padding-top: 25px;
+  width: 10rem;
+}
+
 .mentor-about {
+  height: 50%;
+  padding-top: 35px;
 }
 
 .picture {
